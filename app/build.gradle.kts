@@ -42,7 +42,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(project(":easy-version"))
+    //implementation(project(":easy-version"))
+    implementation("com.github.eriffanani:easy-version-ktx:1.0.1")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
